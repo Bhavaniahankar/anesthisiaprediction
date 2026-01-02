@@ -1,0 +1,108 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+    margin: 0;
+  }
+  
+  .report-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 480px;
+    text-align: center;
+    border: 2px solid #007bff;
+  }
+  
+  .report-header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  .report-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 0;
+  }
+  
+  .hospital-logo {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .report-table th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .report-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .highlight {
+    background-color: #f0f8ff;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .download-btn {
+    background-color: #007bff;
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .logout-btn {
+    background-color: #dc3545;
+  }
+  
+  .logout-btn:hover {
+    background-color: #a71d2a;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
